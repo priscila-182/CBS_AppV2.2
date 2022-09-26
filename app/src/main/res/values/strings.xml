@@ -1,3 +1,12 @@
-<resources>
-    <string name="app_name">CBS_AppV1.0</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="StringEscaping">CBS</string>
+
+    <string name="seach_text">Buscar...</string>
+
+    <!-- GÉNEROS -->
+
+    <string name="Accion">Acción</string>
+    <string name="Fantasía">Fantasía</string>
+    <string name="Horror">Horror</string>
+    <string name="Romance">Romance</string>
 </resources>
