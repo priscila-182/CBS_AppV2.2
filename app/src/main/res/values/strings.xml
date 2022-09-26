@@ -2,6 +2,11 @@
     <string name="app_name" tools:ignore="StringEscaping">CBS</string>
 
     <string name="seach_text">Buscar...</string>
+    <string name="uno">TODOS LOS LIBROS DISPONIBLES</string>
+    <string name="descripcion_libros">Descripción resumida de todos los libros que se encuentran disponibles</string>
+    <string name="masVistos">Libros más vistos</string>
+    <string name="view_all">Ver todos</string>
+    <string name="categorias">Categorías</string>
 
     <!-- GÉNEROS -->
 
