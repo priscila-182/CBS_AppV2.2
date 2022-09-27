@@ -247,6 +247,7 @@
                 </LinearLayout>
 
                 <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/featured_recycle"
                     android:layout_width="match_parent"
                     android:layout_height="280dp"
                     android:layout_toRightOf="@id/featured_background"
@@ -327,7 +328,6 @@
 
 
             </LinearLayout>
-
 
         </LinearLayout>
         
