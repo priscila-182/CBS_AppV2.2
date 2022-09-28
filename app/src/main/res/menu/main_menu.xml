@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:title="Inicio"
+            android:icon="@drawable/icono_menu"/>
+
+        <item
+            android:id="@+id/nav_buscar"
+            android:title="Buscar"
+            android:icon="@drawable/icono_buscar"/>
+
+        <item
+            android:id="@+id/nav_lugares"
+            android:title="Lugares"
+            android:icon="@drawable/icono_mapas"/>
+
+    </group>
+
+    <item android:title="@string/titulo_categorias">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_accion"
+                    android:title="@string/Accion"
+                    android:icon="@drawable/accion2"/>
+
+                <item
+                    android:id="@+id/nav_fantasia"
+                    android:title="@string/Fantasía"
+                    android:icon="@drawable/fantasia2"/>
+
+                <item
+                    android:id="@+id/nav_horror"
+                    android:title="@string/Horror"
+                    android:icon="@drawable/horror2"/>
+
+                <item
+                    android:id="@+id/nav_romance"
+                    android:title="@string/Romance"
+                    android:icon="@drawable/romance2"/>
+
+            </group>
+        </menu>
+    </item>
+</menu>

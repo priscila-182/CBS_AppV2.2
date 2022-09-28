@@ -16,6 +16,8 @@
     <color name="grey2">#595959</color>
     <color name="beige">#fdecda</color>
     <color name="beige2">#eaded5</color>
+    <color name="grey4">#FBF9F9</color>
+    <color name="celeste">#9EBFDF</color>
 
     <!-- Dashboard colors -->
 
@@ -29,5 +31,9 @@
     <color name="card2">#7adccf</color>
     <color name="card3">#f7c59f</color>
     <color name="card4">#b8d7f5</color>
+
+    <!-- Menu colors -->
+    <color name="menu_background">#B1C3D5</color>
+    <color name="menu_background1">#E4E9EF</color>
 
 </resources>

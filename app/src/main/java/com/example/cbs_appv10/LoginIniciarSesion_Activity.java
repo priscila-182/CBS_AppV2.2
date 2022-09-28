@@ -17,7 +17,7 @@ public class LoginIniciarSesion_Activity extends AppCompatActivity {
         btnAtras.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(LoginIniciarSesion_Activity.this, Login_Activity.class));
+                startActivity(new Intent(LoginIniciarSesion_Activity.this, PaginaPrincipal_Activity.class));
             }
         });
     }

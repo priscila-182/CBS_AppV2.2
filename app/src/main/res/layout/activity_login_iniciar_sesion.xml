@@ -67,30 +67,30 @@
 
     <Button
         android:id="@+id/btnIniciar"
-        android:layout_width="153dp"
-        android:layout_height="50dp"
+        android:layout_width="111dp"
+        android:layout_height="68dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="239dp"
+        android:layout_marginStart="215dp"
         android:layout_marginTop="530dp"
         android:layout_marginEnd="49dp"
-        android:layout_marginBottom="74dp"
+        android:layout_marginBottom="78dp"
         android:text="Iniciar Sesión" />
 
     <Button
         android:id="@+id/btnAtrasIngreso"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="109dp"
+        android:layout_height="70dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="47dp"
         android:layout_marginTop="530dp"
-        android:layout_marginEnd="249dp"
-        android:layout_marginBottom="74dp"
+        android:layout_marginEnd="219dp"
+        android:layout_marginBottom="76dp"
         android:text="Atrás" />
 
 </RelativeLayout>
