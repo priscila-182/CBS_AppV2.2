@@ -20,7 +20,7 @@
             android:layout_height="175dp"
             android:layout_gravity="center_horizontal"
             android:scaleType="centerCrop"
-            android:src="@drawable/soy_leyenda_portada1_0" />
+            android:src="@drawable/soy_leyenda_portada1_0"/>
 
         <TextView
             android:layout_marginTop="5dp"

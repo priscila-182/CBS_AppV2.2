@@ -7,7 +7,8 @@
     android:background="@color/home_background"
     android:orientation="vertical"
     tools:context=".PaginaPrincipal_Activity"
-    tools:openDrawer="start">
+    tools:openDrawer="start"
+    android:id="@+id/drawer_layout">
     
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/navegation_view"
@@ -30,6 +31,7 @@
             android:padding="15dp">
 
             <ImageView
+                android:id="@+id/menu_icono"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:layout_centerVertical="true"
@@ -37,15 +39,13 @@
 
             <Button
                 android:id="@+id/btnIniciarSesion"
-                android:layout_width="70dp"
-                android:layout_height="48dp"
+                android:layout_width="58dp"
+                android:layout_height="64dp"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
+                android:drawableTop="@drawable/usuario"
                 android:fontFamily="@font/josefin_sans_bold"
-                android:padding="5dp"
-                android:text="Iniciar Sesión"
-                android:textColor="@color/black"
-                android:textSize="10dp" />
+                android:padding="5dp" />
 
 
         </RelativeLayout>
@@ -230,7 +230,7 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="317dp"
+                    android:layout_height="320dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="20dp"
@@ -238,11 +238,10 @@
 
                     <LinearLayout
                         android:id="@+id/featured_background"
-                        android:layout_width="136dp"
-                        android:layout_height="296dp"
+                        android:layout_width="155dp"
+                        android:layout_height="292dp"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="10dp"
-                        android:layout_marginEnd="10dp"
                         android:background="@color/banner_background"
                         android:orientation="vertical">
 
@@ -270,8 +269,9 @@
 
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/featured_recycle"
-                        android:layout_width="185dp"
-                        android:layout_height="316dp"
+                        android:layout_width="212dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="13dp"
                         android:layout_toRightOf="@id/featured_background"
                         android:background="@color/home_background" />
 
@@ -304,6 +304,16 @@
                             android:layout_centerVertical="true"
                             android:text="@string/view_all"
                             android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="80dp"
+                            android:text="Próximamente"
+                            android:fontFamily="@font/oswald_normal"
+                            android:textColor="@color/grey1"
+                            android:textSize="40dp"/>
+
 
                     </RelativeLayout>
 
@@ -343,6 +353,15 @@
                             android:layout_centerVertical="true"
                             android:text="@string/view_all"
                             android:textColor="@color/black" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="80dp"
+                            android:text="Próximamente"
+                            android:fontFamily="@font/oswald_normal"
+                            android:textColor="@color/grey1"
+                            android:textSize="40dp"/>
 
                     </RelativeLayout>
 

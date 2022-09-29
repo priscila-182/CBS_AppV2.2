@@ -5,13 +5,12 @@ public class MostViewedCardDesignHelpedClass {
     int image, rating;
     String title, description, autor, genero;
 
-    public MostViewedCardDesignHelpedClass(int image, int rating, String title, String description, String autor, String genero) {
+    public MostViewedCardDesignHelpedClass(int image, String title, String description, String autor, String genero) {
         this.image = image;
         this.title = title;
         this.description = description;
         this.autor = autor;
         this.genero = genero;
-        this.rating = rating;
     }
 
     public int getImage() {
@@ -34,7 +33,4 @@ public class MostViewedCardDesignHelpedClass {
         return genero;
     }
 
-    public int getRating() {
-        return rating;
-    }
 }

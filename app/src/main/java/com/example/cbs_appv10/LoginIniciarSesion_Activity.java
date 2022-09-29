@@ -20,5 +20,13 @@ public class LoginIniciarSesion_Activity extends AppCompatActivity {
                 startActivity(new Intent(LoginIniciarSesion_Activity.this, PaginaPrincipal_Activity.class));
             }
         });
+
+        Button btnCrearCuenta = (Button) findViewById(R.id.btnCrearCuenta);
+        btnCrearCuenta.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LoginIniciarSesion_Activity.this, LoginRegistro_Activity.class));
+            }
+        });
     }
 }

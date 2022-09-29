@@ -39,7 +39,6 @@ public class FeaturedAdapter extends RecyclerView.Adapter<FeaturedAdapter.Featur
         holder.desc.setText(featuredHelpedClass.getDescription());
         holder.author.setText(featuredHelpedClass.getAutor());
         holder.genre.setText(featuredHelpedClass.getGenero());
-        holder.rating.setText(featuredHelpedClass.getRating());
 
     }
 
@@ -62,7 +61,6 @@ public class FeaturedAdapter extends RecyclerView.Adapter<FeaturedAdapter.Featur
             desc = itemView.findViewById(R.id.featured_desc);
             author = itemView.findViewById(R.id.featured_autor);
             genre = itemView.findViewById(R.id.featured_genero);
-            rating = itemView.findViewById(R.id.featured_rating);
         }
     }
 }

@@ -34,6 +34,14 @@ public class MostViewedCardDesignAdapter extends RecyclerView.Adapter<MostViewed
     @Override
     public void onBindViewHolder(@NonNull MostViewedCardDesignViewHolder holder, int position) {
 
+        MostViewedCardDesignHelpedClass mostViewedCardDesignHelpedClass = mostViewedCardDesignLocations.get(position);
+
+        holder.image.setImageResource(mostViewedCardDesignHelpedClass.getImage());
+        holder.title.setText(mostViewedCardDesignHelpedClass.getTitle());
+        holder.desc.setText(mostViewedCardDesignHelpedClass.getDescription());
+        holder.author.setText(mostViewedCardDesignHelpedClass.getAutor());
+        holder.genre.setText(mostViewedCardDesignHelpedClass.getGenero());
+
     }
 
     @Override
@@ -43,7 +51,7 @@ public class MostViewedCardDesignAdapter extends RecyclerView.Adapter<MostViewed
 
     public static class MostViewedCardDesignViewHolder extends RecyclerView.ViewHolder{
 
-        ImageView image, rating;
+        ImageView image;
         TextView title, desc, author, genre;
 
         public MostViewedCardDesignViewHolder(@NonNull View itemView) {
@@ -55,7 +63,6 @@ public class MostViewedCardDesignAdapter extends RecyclerView.Adapter<MostViewed
             desc = itemView.findViewById(R.id.mv_desc);
             author = itemView.findViewById(R.id.mv_author);
             genre = itemView.findViewById(R.id.mv_genre);
-            rating = itemView.findViewById(R.id.mv_rating);
         }
     }
 

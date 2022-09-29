@@ -2,16 +2,15 @@ package com.example.cbs_appv10.HomeAdapter;
 
 public class FeaturedHelpedClass {
 
-    int image, rating;
+    int image;
     String title, description, autor, genero;
 
-    public FeaturedHelpedClass(int image, int rating, String title, String description, String autor, String genero) {
+    public FeaturedHelpedClass(int image, String title, String description, String autor, String genero) {
         this.image = image;
         this.title = title;
         this.description = description;
         this.autor = autor;
         this.genero = genero;
-        this.rating = rating;
     }
 
     public int getImage() {
@@ -34,7 +33,4 @@ public class FeaturedHelpedClass {
         return genero;
     }
 
-    public int getRating() {
-        return rating;
-    }
 }
