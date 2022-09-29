@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "260199631560",
+    "project_id": "cbs-app-b4524",
+    "storage_bucket": "cbs-app-b4524.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260199631560:android:7d9b6e61101a52872cb3fd",
+        "android_client_info": {
+          "package_name": "CBS.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260199631560-hmmt8vdail49juk60sf3jl112gfi0a7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyJYf8jE2fpPXhro1Gp7G0dC8SAXBFv5g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260199631560-hmmt8vdail49juk60sf3jl112gfi0a7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
