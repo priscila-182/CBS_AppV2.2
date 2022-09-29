@@ -270,7 +270,7 @@
                     <androidx.recyclerview.widget.RecyclerView
                         android:id="@+id/featured_recycle"
                         android:layout_width="212dp"
-                        android:layout_height="match_parent"
+                        android:layout_height="300dp"
                         android:layout_marginLeft="13dp"
                         android:layout_toRightOf="@id/featured_background"
                         android:background="@color/home_background" />
