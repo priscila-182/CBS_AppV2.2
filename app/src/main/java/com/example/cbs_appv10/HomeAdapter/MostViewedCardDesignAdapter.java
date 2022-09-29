@@ -28,7 +28,7 @@ public class MostViewedCardDesignAdapter extends RecyclerView.Adapter<MostViewed
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.most_viewed_card_design,parent, false);
         MostViewedCardDesignViewHolder mostViewedCardDesignViewHolder = new MostViewedCardDesignViewHolder(view);
 
-        return null;
+        return mostViewedCardDesignViewHolder;
     }
 
     @Override
@@ -46,7 +46,7 @@ public class MostViewedCardDesignAdapter extends RecyclerView.Adapter<MostViewed
 
     @Override
     public int getItemCount() {
-        return 0;
+        return mostViewedCardDesignLocations.size();
     }
 
     public static class MostViewedCardDesignViewHolder extends RecyclerView.ViewHolder{

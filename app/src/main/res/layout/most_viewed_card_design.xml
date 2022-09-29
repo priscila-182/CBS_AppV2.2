@@ -3,14 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="2dp"
-    app:cardElevation="8dp">
+    app:cardCornerRadius="5dp"
+    app:cardElevation="8dp"
+    android:layout_margin="12sp">
 
     <RelativeLayout
-        android:layout_width="320dp"
+        android:layout_width="350dp"
         android:layout_height="214dp"
         android:padding="10dp"
-        android:background="@color/grey1">
+        android:background="@color/grey4">
 
         <ImageView
             android:id="@+id/mv_image"
@@ -22,14 +23,15 @@
 
         <TextView
             android:id="@+id/mv_title"
-            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
             android:layout_toRightOf="@id/mv_image"
             android:fontFamily="@font/acme"
             android:text="Soy Leyenda"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
 
         <RatingBar
             android:id="@+id/mv_rating"
@@ -50,8 +52,9 @@
             android:layout_marginLeft="0dp"
             android:layout_marginTop="50dp"
             android:layout_toRightOf="@+id/mv_image"
-            android:padding="10dp"
-            android:text="Robert Neville es el único superviviente de una guerra bacteriológica que ha asolado el planeta..." />
+            android:padding="8dp"
+            android:text="Robert Neville es el único superviviente de una guerra bacteriológica que ha asolado el planeta..."
+            android:textColor="@color/black" />
 
         <TextView
             android:id="@+id/mv_author"
@@ -60,17 +63,19 @@
             android:layout_below="@+id/mv_rating"
             android:layout_toRightOf="@+id/mv_image"
             android:padding="10dp"
-            android:text="Autor: " />
+            android:text="Autor: "
+            android:textColor="@color/black"/>
 
         <TextView
             android:id="@+id/mv_genre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Género: "
-            android:layout_marginTop="20dp"
             android:layout_below="@+id/mv_rating"
+            android:layout_marginTop="20dp"
             android:layout_toRightOf="@+id/mv_image"
-            android:padding="10dp"/>
+            android:padding="10dp"
+            android:text="Género: "
+            android:textColor="@color/black" />
 
 
     </RelativeLayout>

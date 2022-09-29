@@ -10,28 +10,28 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:padding="8dp"
+        android:background="@color/grey4"
         android:orientation="vertical"
-        android:background="@color/grey4">
+        android:padding="10dp">
 
         <ImageView
             android:id="@+id/featured_image"
-            android:layout_width="match_parent"
-            android:layout_height="175dp"
+            android:layout_width="110dp"
+            android:layout_height="160dp"
             android:layout_gravity="center_horizontal"
             android:scaleType="centerCrop"
-            android:src="@drawable/soy_leyenda_portada1_0"/>
+            android:src="@drawable/soy_leyenda_portada1_0" />
 
         <TextView
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="3dp"
             android:id="@+id/featured_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"
             android:fontFamily="@font/acme"
             android:text="Soy leyenda"
             android:textColor="@color/black"
-            android:textSize="15sp"/>
+            android:textSize="15sp" />
 
         <RatingBar
             android:id="@+id/featured_rating"
@@ -42,20 +42,20 @@
 
         <TextView
             android:id="@+id/featured_autor"
-            android:layout_marginTop="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="10sp"
+            android:layout_marginTop="5dp"
             android:text="Autor: Jennifer L. Armentrout"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="10sp" />
 
         <TextView
             android:id="@+id/featured_genero"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="10sp"
             android:text="Género: Acción"
-            android:textColor="@color/black"/>
+            android:textColor="@color/black"
+            android:textSize="10sp" />
 
         <TextView
             android:id="@+id/featured_desc"

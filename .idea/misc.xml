@@ -8,14 +8,19 @@
         <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/drawable/card3.xml" value="0.2545" />
         <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/drawable/card4.xml" value="0.2555" />
         <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout-land/featured_card_design.xml" value="0.21164021164021163" />
+        <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/activity_categorias.xml" value="0.2" />
         <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/activity_login_iniciar_sesion.xml" value="0.152" />
         <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/activity_login_registro.xml" value="0.2" />
         <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/activity_most_viewed.xml" value="0.2" />
         <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/activity_pagina_principal.xml" value="0.2" />
-        <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/categories_card_design.xml" value="0.25" />
+        <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/activity_todos_los_libros.xml" value="0.2" />
+        <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/all_books_card_design.xml" value="0.264" />
+        <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/categories_card_design.xml" value="0.2" />
+        <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/categories_information_card_design.xml" value="0.25" />
         <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/featured_card_design.xml" value="0.25" />
-        <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/menu_header.xml" value="0.25" />
+        <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/menu_header.xml" value="0.2" />
         <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/layout/most_viewed_card_design.xml" value="0.25" />
         <entry key="..\:/Users/prisc/AndroidStudioProjects/CBS_AppV10/app/src/main/res/menu/main_menu.xml" value="0.25" />
       </map>
